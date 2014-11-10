@@ -337,4 +337,10 @@ body .page {
   body .page .highlight {
     background: #fff; }
 
+#logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 128px; }
+
 /*# sourceMappingURL=print.css.map */

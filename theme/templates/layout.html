@@ -18,6 +18,7 @@
         {{ htmlSnippet("head:end")|default("") }}
     </head>
     <body>
+        <img src="{{ staticBase }}/images/logo.png" alt="" id="logo">
         {{ htmlSnippet("body:start")|default("") }}
         {% block style %}{% endblock %}
         {% block content %}{% endblock %}
