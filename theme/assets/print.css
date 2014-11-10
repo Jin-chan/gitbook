@@ -208,7 +208,8 @@ body .page {
     padding: .3em;
     font-size: 2.25em;
     line-height: 1.2;
-    border-bottom: 3px solid #555; }
+    border-bottom: 3px solid #555;
+    margin-bottom: 2px; }
   body .page h2 {
     padding-bottom: .3em;
     font-size: 1.6em;
