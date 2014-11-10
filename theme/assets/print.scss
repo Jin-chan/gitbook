@@ -288,7 +288,7 @@ body .page {
     padding: .3em;
     font-size: 2.25em;
     line-height: 1.2;
-    border: 1px solid #333;
+    border-bottom: 3px solid #555;
   }
   h2 {
     padding-bottom: .3em;
@@ -320,10 +320,10 @@ body .page {
     margin-bottom: 16px;
   }
   hr {
-    height: 4px;
+    height: 1px;
     padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
+    margin: 0 0 16px;
+    background-color: #555;
     border: 0 none;
   }
   ul {
