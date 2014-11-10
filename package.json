@@ -43,7 +43,7 @@
         "test": "export TESTING=true; mocha --reporter list"
     },
     "bin": {
-        "gitbook": "./bin/gitbook.js"
+        "gitbook-pdf": "./bin/gitbook.js"
     },
     "repository": {
         "type": "git",
