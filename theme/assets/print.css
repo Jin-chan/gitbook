@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .link-inherit {
   color: inherit; }
   .link-inherit:hover, .link-inherit:focus {
@@ -207,15 +208,18 @@ body .page {
     padding-bottom: .3em;
     font-size: 2.25em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee; }
+    border: 1px solid #eee;
+    text-align: right; }
   body .page h2 {
     padding-bottom: .3em;
     font-size: 1.75em;
     line-height: 1.225;
-    border-bottom: 1px solid #eee; }
+    border-bottom: 3px dotted #333; }
   body .page h3 {
     font-size: 1.5em;
     line-height: 1.43; }
+    body .page h3:before {
+      content: '▶'; }
   body .page h4 {
     font-size: 1.25em; }
   body .page h5 {
