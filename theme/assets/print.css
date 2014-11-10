@@ -339,8 +339,8 @@ body .page {
 
 #logo {
   position: absolute;
-  top: 16px;
-  left: 16px;
-  width: 128px; }
+  top: 0;
+  right: 0;
+  width: 96px; }
 
 /*# sourceMappingURL=print.css.map */
